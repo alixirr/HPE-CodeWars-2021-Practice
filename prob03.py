@@ -21,7 +21,7 @@ try:
         
         for char in line:
             if (char == "P"):
-                print("Ace, move fast, pigeon is at (" + str(x) + ", " + str(y) + ")")
+                print(f"Ace, move fast, pigeon is at ({x}, {y})")
                 printed = True
             x += 1
         y += 1
