@@ -20,8 +20,9 @@ with open(r"input.txt", "r") as f:
     
     print(len(repeated))
     if len(repeated) == 0:
-        print("\nduplicates: None")
+        print("duplicates: None")
     else:
         print("duplicates: ", end = "")
         for i in range(len(repeated)):
             print(repeated[i], end = " ")
+        print("")
