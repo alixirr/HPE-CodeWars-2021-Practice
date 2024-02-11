@@ -23,10 +23,10 @@ import subprocess
 
 # TODO: **EDIT** these paths to point to your local JDK and python
 # Set the path to the empty string ("") if you are not using that language
-JDK_PATH = r"/usr/lib/jvm/java-1.8.0/bin"
-PY3_PATH = r"/usr/bin/python3.6"
-PY2_PATH = r"/usr/bin/python2.7"
-RINGO_JS_PATH = r"ringojs-1.2.0/run.jar"
+JDK_PATH = r""
+PY3_PATH = r"\Python311\python.exe"
+PY2_PATH = r""
+RINGO_JS_PATH = r""
 
 # **DO NOT** edit these constants
 STUDENT_DIR = "student_datasets"
