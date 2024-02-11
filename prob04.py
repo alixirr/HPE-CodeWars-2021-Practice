@@ -5,6 +5,7 @@ try:
         for line in f:
             lines.append(line.rstrip())
 
+    lines.pop(0)
     lines.reverse()
 
     for line in lines:
